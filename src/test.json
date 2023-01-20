@@ -1,0 +1,28 @@
+[{
+        "q": "What's up. I like A",
+        "choiceA": "choice..A",
+        "choiceB": "choice..B",
+        "choiceC": "choice..C",
+        "choiceD": "choice..D",
+        "correctChoice": "a",
+        "explanation": "Explanation why it's A.."
+    },
+    {
+        "q": "What's up. I like B",
+        "choiceA": "choice..A",
+        "choiceB": "choice..B",
+        "choiceC": "choice..C",
+        "choiceD": "choice..D",
+        "correctChoice": "b",
+        "explanation": "Explanation why it's B.."
+    },
+    {
+        "q": "What's up. I like C",
+        "choiceA": "choice..A",
+        "choiceB": "choice..B",
+        "choiceC": "choice..C",
+        "choiceD": "choice..D",
+        "correctChoice": "c",
+        "explanation": "Explanation why it's choice.."
+    }
+]

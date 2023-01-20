@@ -1,0 +1,54 @@
+.card {
+    transition: translate 1s ease;
+}
+
+.top-right {
+    transform: translate(10px, 10px)
+}
+
+.bottom-right {
+    transform: translate(10px, -10px)
+}
+
+.bottom-left {
+    transform: translate(-10px, -10px)
+}
+
+.top-left {
+    transform: translate(-10px, 10px)
+}
+
+.choice {
+    cursor: pointer;
+}
+
+.choice:hover {
+    color: blue;
+    transition: color 1s ease;
+}
+
+.result {
+    margin-top: 10px;
+}
+
+.result.failed {
+    color: red;
+}
+
+.result.correct {
+    color: green;
+}
+
+button {
+    display: block;
+    margin: 20px auto;
+    background-color: rgba(125, 125, 125, 0.5);
+    border: 0;
+    cursor: pointer;
+    font-size: 120%;
+}
+
+button:hover {
+    background-color: white;
+    transition: background-color 2s ease;
+}

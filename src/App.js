@@ -1,24 +1,40 @@
-import logo from './logo.svg';
+import logo from './logo.png';
 import './App.css';
+import Home from "./Home"
+import Pokemon from "./Pokemon"
+import Charizard from "./components/Charizard"
+import JSONCards from "./JSONCards"
+
+import {
+  createBrowserRouter,
+  RouterProvider,
+} from "react-router-dom";
+
+const router = createBrowserRouter([
+  {
+    path: "/",
+    element: <Home />,
+  },
+  {
+    path: "/pokemon",
+    element: <Pokemon />,
+  },
+  {
+    path: "/charizard",
+    element: <Charizard />,
+  },
+  {
+    path: "/json",
+    element: <JSONCards />,
+  }
+]);
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <RouterProvider
+    router={router}
+    fallbackElement={<Home />}
+    />
   );
 }
 

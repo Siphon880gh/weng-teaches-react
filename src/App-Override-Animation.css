@@ -1,0 +1,25 @@
+.App-logo-2 {
+    width: 250px;
+    height: 40vmin;
+    pointer-events: none;
+}
+
+.App-logo-2 {
+    animation: App-logo-marquee infinite 3s linear;
+}
+
+@keyframes App-logo-marquee {
+    from {
+        transform: translate(-10vw);
+        opacity: .8;
+    }
+    to {
+        transform: translate(20vw);
+        opacity: .2;
+    }
+}
+
+li {
+    display: block;
+    margin-bottom: 20px;
+}
