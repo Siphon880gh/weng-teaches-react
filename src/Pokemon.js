@@ -15,10 +15,10 @@ function App() {
             <a href="/charizard">Charizard</a>
           </li>
           <li>
-            <a className="disabled" no-href="/pikachu" href="#">Pikachu</a>
+            <a className="disabled" no-href="/pikachu-coming-soon" href="#">Bulbasaur</a>
           </li>
           <li>
-            <a className="disabled" no-href="/ditto" href="#">Ditto</a>
+            <a className="disabled" no-href="/ditto-coming-soon" href="#">Squirtle</a>
           </li>
         </ul>
       </header>

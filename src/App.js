@@ -2,7 +2,7 @@ import logo from './logo.png';
 import './App.css';
 import Home from "./Home"
 import Pokemon from "./Pokemon"
-import Charizard from "./components/Charizard"
+import Charizard from "./pokemons/Charizard"
 import JSONCards from "./JSONCards"
 
 import {

@@ -21,6 +21,13 @@ function Charizard() {
             <p>
                 {imgTag.length?<img src={imgTag}></img>:""}
             </p>
+            <p>
+                You've chosen well! 
+            </p>
+            <p>
+                Best of luck on your adventure to collect them all!<br/>
+                Hit back on your web browser.
+            </p>
         </details>
     </div>
   );

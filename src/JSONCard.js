@@ -69,7 +69,7 @@ function JSONCard(props) {
                     
                     <div className={"result "+(result==="1"?"correct":"failed")}>
                         {result==="0" ? "Incorrect!" : "Correct! " + explanation}
-                        <button onClick={()=>{alert("Coming soon!")}}>No more questions!<br/>Click for scores (Coming soon!)</button>
+                        <button onClick={()=>{alert("Coming soon!")}}>No more questions!<br/>Click for score (Coming soon!)</button>
                     </div>
                 ):""
 

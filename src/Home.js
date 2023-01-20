@@ -18,7 +18,7 @@ function Home() {
           </li>
 
           <li>
-            <a href="/json">Import JSON for studying!</a>
+            <a href="/json">Import JSON for quiz game!</a>
           </li>
         </ul>
       </header>
